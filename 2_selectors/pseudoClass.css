@@ -1,0 +1,90 @@
+
+
+.container > button{
+    background-color: aqua;
+    color:red
+}
+
+
+/* ! 1. hover  */
+
+
+.container > button:hover{
+    background-color: green;
+    color:white;
+}
+
+.container > h1:hover{
+    color:red;
+}
+
+
+/* ! 2. active */
+
+.container > button:active{
+    background-color: black;
+    color:blue
+}
+
+/* ! 3. first-of-type */
+
+.container2 > h1:first-of-type{
+
+    color:green
+}
+
+/* ! 4. last-of-type */
+
+.container2 > p:last-of-type{
+    color:red
+}
+
+
+/* ! 5. first-child */
+
+.container3 >p:first-child{
+    color:green;
+}
+
+/* it will not select the para bcz it is not the first child of container3 */
+
+.container3 > h1:first-child{
+    color:green
+}
+
+/* it will select the h1, bcz it is the first child of the container3 */
+
+/* ! 6. last-child */
+
+.container3 > p:last-child{
+    color:red;
+}
+
+/* ! 7. nth-child */
+
+/* it will select all the odd childer */
+
+/* .container4 >ul> li:nth-child(2n+1){
+
+    color:red;
+} */
+
+
+/* it will select all the even childer */
+
+.container4 >ul> li:nth-child(2n){
+
+    color:red;
+}
+
+/* ! 8. visited  */
+
+.container4>a:visited{
+ color:red
+}
+
+/* ! 9. link */
+
+.container4>a:link{
+    color:blue
+}

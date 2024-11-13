@@ -1,0 +1,44 @@
+
+/* ! 1.  universal selector */
+
+/* *{
+    color:red;
+} */
+
+/* ! 2. tagname selector */
+
+/* h1{
+    color:blue
+}
+
+p{
+    color:green
+} */
+
+
+/* ! 3. id selector */
+
+
+/* #p1{
+    color:red
+}
+
+#p2{
+    color:blue
+} */
+
+
+/* ! 4. class name selector */
+
+
+/* .container{
+    color:aqua
+} */
+
+
+/* ! 5. group selector */
+
+
+h1 , h2, #p1, .container{
+    color:red
+}
