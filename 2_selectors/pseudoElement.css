@@ -1,0 +1,51 @@
+
+
+/* !  1. first-letter */
+
+.container > p::first-letter{
+    font-size: 30px;
+    color:red;
+}
+
+/* ! 2. first-line */
+
+.container > p::first-line{
+    background-color: green;
+}
+
+/* ! 3. selection */
+
+::selection{
+    background-color: black;
+    color:green
+}
+
+
+/* ! 4.  marker */
+
+.container2 > ul > li::marker{
+    color:red
+}
+
+
+.container2 > ul > li:nth-child(2n)::marker{
+    color:green
+}
+
+/* !  5.  before  */
+
+.container2 > h2::before{
+    content :"**";             
+    color:red;
+}
+
+
+
+/* ! 6. after */
+
+.container2 > h2::after{
+    content: "&&";
+    color:green;
+}
+
+
