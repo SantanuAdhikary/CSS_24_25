@@ -1,0 +1,48 @@
+
+
+header > h1{
+    color:red;
+    text-transform: capitalize;
+    /* text-transform: uppercase;
+    text-transform: lowercase; */
+    text-align: center;
+}
+
+header > p{
+    text-align: justify;
+    /* text-align: start;
+    text-align: end; */
+}
+
+
+main > h2{
+    color:green;
+    text-transform: uppercase;
+    text-align: right;
+
+    text-decoration: line-through;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+}
+
+main > a{
+    text-decoration: none;
+}
+
+main > p{
+    text-indent: 30px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 20px;
+}
+
+
+main> h3{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:blue;
+
+
+    text-shadow: -2px 3px 3px black ;
+}

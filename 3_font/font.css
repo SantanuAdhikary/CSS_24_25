@@ -1,0 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&family=Doto:wght@100..900&family=Londrina+Sketch&display=swap');
+
+*{
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+}
+
+#p1{
+    font-size: 25px;
+    font-weight: bold;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* font-family: "Doto", sans-serif; */
+   font-style:italic;
+}
