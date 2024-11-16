@@ -1,0 +1,40 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container1{
+    height: 250px;
+    width: 600px;
+    background-color: aqua;
+    border: 10px solid red;
+
+    /* padding: 20px; */
+
+    /* padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 10px; */
+
+    padding: 10px 15px 10px 20px;
+
+    /* padding-block: 10px;
+    padding-inline: 20px; */
+
+
+}
+.container2{
+    height: 250px;
+    width: 600px;
+    background-color: bisque;
+    border: 10px solid black;
+    /* margin: 20px; */
+
+    margin-top: 20px;
+}
+
+.container2 > h1{
+    margin-bottom: 20px;
+}
