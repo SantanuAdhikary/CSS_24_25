@@ -1,0 +1,27 @@
+
+.header{
+    background-color: red;
+    height: 500px;
+    width: 500px;
+}
+
+.header > .aside{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+
+
+/* !  relative units */
+
+.container{
+    height: 400px;
+    width: 600px;
+    background-color: blue;
+}
+
+.container > .box{
+    height: 50%;
+    width: 50%;
+    background-color: black;
+}

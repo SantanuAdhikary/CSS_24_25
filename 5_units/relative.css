@@ -1,0 +1,11 @@
+
+.outer{
+  background-color: red; 
+  height: 100vh; 
+  width: 80vw;
+}
+
+.outer>.inner{
+    height: 50vh;
+    background-color: green;
+}
