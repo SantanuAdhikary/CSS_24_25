@@ -1,0 +1,30 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(255, 0, 0);
+    height: 30vh;
+}
+
+header > h1{
+    color: #E3A5C7
+}
+
+main{
+    background-color: rgba(255, 0, 0,0.5);
+    height: 50vh;
+}
+
+main > p{
+    font-size: 30px;
+    color:hsl(0, 26%, 57%)
+}
+
+footer{
+    background-color: #FAB12F;
+    height: 20vh;
+}

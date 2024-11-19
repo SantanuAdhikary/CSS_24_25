@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #212121;;
+    
+}
+
+.container{
+    width: 300px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 3px 2px blue;
+}
+
+.container > button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #555;
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container > button:hover{
+    background-color: #666 ;
+}
+
+
+
+.container2{
+    height: 300px;
+    width: 300px;
+    border: 3px solid red;
+    margin-top: 30px;
+}
+
+.container2 > .box1{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    display: inline-block;
+}
+.container2 > .box2{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    display: none;
+}
+.container2 > .box3{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    display: inline;
+}
