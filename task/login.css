@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.outer{
+    background-color: rgb(248, 211, 248);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer > .inner{
+    background-color: white;
+    width: 300px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 3px rgba(0,0,0,0.5)
+}
+
+.form-group > label{
+    display: block;
+}
+
+.form-group > input{
+    display: block;
+}
+
+header > h1{
+   font-style: italic;
+   margin-bottom: 8px;
+}
+
+header > p{
+    font-size: 12px;
+    font-style: italic;
+    color:#666;
+    font-weight: bold;
+}
+
+main{
+    margin-top: 10px;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+.form-group > input{
+    width: 100%;
+    margin-top: 5px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.form-group > label{
+    font-weight: bold;
+}
+
+.form-group > button{
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: blue;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.form-group > button:hover{
+ background-color: rgb(8, 8, 149);
+}
+
+footer> #p1{
+    display: inline-block;
+    font-size: 12px;
+    color:#666;
+    cursor: pointer;
+}
+
+footer > #p1:hover{
+    color:#888;
+}
+
+footer > #p2{
+    display: inline-block;
+    font-size: 12px;
+    color:blue;
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.outer > .inner:hover{
+    box-shadow: -3px -2px 3px rgba(0,0,0,0.5)
+}
