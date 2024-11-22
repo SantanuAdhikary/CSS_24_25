@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar </title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        nav{
+            height: 60px;
+            background-color: bisque;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .list-item > ul {
+            display: flex;
+             gap:10px
+        }
+
+        .logo> h1{
+            margin-left: 10px;
+        
+        }
+
+        span{
+            color:red;
+            font-style: italic;
+        }
+
+        .list-item > ul > li{
+            list-style: none;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .list-item >ul > li:hover{
+            color:#ccc;
+        }
+
+        .buttons > button:nth-child(1)
+        {
+            padding: 8px 15px;
+            background-color: #0866ff;
+            color:white;
+            font-weight: bold;
+            font-size: 17px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+
+        }
+
+        .buttons > button:nth-child(1):hover{
+            background-color: #0652cd;
+        }
+
+        .buttons > button:nth-child(2)
+        {
+            padding: 8px 15px;
+            background-color: #42b72a;
+            color:white;
+            font-weight: bold;
+            font-size: 17px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            margin-right: 20px;
+        }
+
+        .buttons > button:nth-child(2):hover{
+            background-color: #297c18;
+        }
+
+       
+
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <div class="logo">
+            <h1> <span>My</span>Logo</h1>
+        </div>
+
+        <div class="list-item">
+
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+
+        <div class="buttons">
+            <button>login</button>
+            <button>signup</button>
+        </div>
+    </nav>
+</body>
+</html>
