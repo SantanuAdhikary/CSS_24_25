@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex-basis</title>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      header {
+        height: 400px;
+        background-color: red;
+        display: flex;
+      }
+
+      header > .left {
+        background-color: green;
+        flex-basis: 30%;
+      }
+
+      header > .right {
+        background-color: blue;
+        flex-basis: 50%;
+      }
+
+      header > .middle {
+        background-color: aqua;
+        flex-basis: 20%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="left">
+        <h1>this is left</h1>
+      </div>
+
+      <div class="middle">
+        <h1>this is middle</h1>
+      </div>
+
+      <div class="right">
+        <h1>this is right</h1>
+      </div>
+    </header>
+  </body>
+</html>
