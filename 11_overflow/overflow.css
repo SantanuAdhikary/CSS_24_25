@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: chocolate;
+}
+
+.outer > .inner{
+    height: 250px;
+    width: 300px;
+    border: 3px solid black;
+    overflow: auto;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 2px black;
+    color:white;
+    text-align: justify;
+}
+
+::-webkit-scrollbar{
+    /* overflow: hidden; */
+    display: none;
+}
