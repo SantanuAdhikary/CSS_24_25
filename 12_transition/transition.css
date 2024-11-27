@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+}
+
+
+.outer > .inner{
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function:linear;
+    transition-delay: 2s; */
+
+
+    transition: all 2s ease-in 1s;
+}
+
+.outer >.inner:hover{
+    border-radius: 50%;
+    background-color: orange;
+}

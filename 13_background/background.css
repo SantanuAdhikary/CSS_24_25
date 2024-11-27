@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+
+    background-color: bisque;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9b/Virat_Kohli_in_PMO_New_Delhi.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
