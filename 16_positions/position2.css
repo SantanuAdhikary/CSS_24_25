@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+
+    position: fixed;
+    top:0;
+}
+
+main{
+    height: 400px;
+    background-color: antiquewhite;
+}
+
+section{
+    height: 450px;
+    background-color: azure;
+}
+
+article{
+    height: 400px;
+    background-color: blanchedalmond;
+}
+
+footer{
+    height: 80px;
+    background-color: black;
+}
+
+section > button{
+    padding: 10px 20px;
+    background-color: orange;
+    color:white;
+    font-weight: bold;
+    font-size: 19px;
+    border: 1px solid orangered;
+    cursor: pointer;
+
+
+    position: sticky;
+    top:300px;
+}
